@@ -2,11 +2,11 @@ import React, { useEffect, useState } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
 
 const items = [
-  { id: 'home', label: 'Home', icon: '🏠', color: 'from-purple-500 to-pink-500' },
-  { id: 'about', label: 'About', icon: '👤', color: 'from-blue-500 to-cyan-500' },
-  { id: 'projects', label: 'Projects', icon: '💼', color: 'from-orange-500 to-yellow-500' },
-  { id: 'skills', label: 'Skills', icon: '⚡', color: 'from-green-500 to-emerald-500' },
-  { id: 'contact', label: 'Contact', icon: '✉️', color: 'from-pink-500 to-red-500' },
+  { id: 'home', label: 'Home', icon: '/icons/1.svg', color: 'from-purple-500 to-pink-500' },
+  { id: 'about', label: 'About', icon: '/icons/2.svg', color: 'from-blue-500 to-cyan-500' },
+  { id: 'projects', label: 'Projects', icon: '/icons/3.svg', color: 'from-orange-500 to-yellow-500' },
+  { id: 'skills', label: 'Skills', icon: '/icons/4.svg', color: 'from-green-500 to-emerald-500' },
+  { id: 'contact', label: 'Contact', icon: '/icons/5.svg', color: 'from-pink-500 to-red-500' },
 ]
 
 export default function Navbar(){
@@ -124,10 +124,10 @@ export default function Navbar(){
                 <div className={`absolute inset-0 bg-gradient-to-r ${item.color} opacity-0 group-hover:opacity-60 blur-xl rounded-full transition-opacity duration-300`} />
                 
                 {/* Icon container */}
-                <div className={`relative w-14 h-14 rounded-full bg-gradient-to-br ${item.color} flex items-center justify-center text-2xl shadow-xl border-2 ${
+                <div className={`relative w-14 h-14 rounded-full bg-gradient-to-br ${item.color} flex items-center justify-center shadow-xl border-2 ${
                   isActive ? 'border-white scale-110' : 'border-white/20'
                 } transition-all`}>
-                  {item.icon}
+                  <img src={item.icon} alt={item.label} className="w-8 h-8 object-contain" />
                   
                   {/* Active pulse */}
                   {isActive && (
@@ -225,8 +225,8 @@ export default function Navbar(){
               exit={{ scale: 0, opacity: 0 }}
               className="absolute -top-2 -right-2 z-20"
             >
-              <div className={`w-8 h-8 rounded-full bg-gradient-to-br ${items.find(it => it.id === active)?.color} flex items-center justify-center text-sm border-2 border-white shadow-lg`}>
-                {items.find(it => it.id === active)?.icon}
+            <div className={`w-8 h-8 rounded-full bg-gradient-to-br ${items.find(it => it.id === active)?.color} flex items-center justify-center border-2 border-white shadow-lg`}>
+                <img src={items.find(it => it.id === active)?.icon} alt={items.find(it => it.id === active)?.label} className="w-5 h-5 object-contain" />
               </div>
             </motion.div>
           )}

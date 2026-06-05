@@ -232,7 +232,7 @@ export default function About() {
               <p className="text-sm lg:text-base text-gray-400">
                 My next frontier?{' '}
                 <span className="text-sky-300 font-semibold">Cloud & DevOps</span> — I'm actively exploring
-                AWS, Docker, and CI/CD pipelines because I believe the future of great software lives in the
+                AWS, Docker, AI and CI/CD pipelines because I believe the future of great software lives in the
                 cloud.
               </p>
             </div>

@@ -21,7 +21,7 @@ const projects = [
   },
   {
     title: 'Smart-Navigator',
-    description: 'Smart Navigator is a web-based tool for exploring the CINEC Campus. Easily find buildings and navigate the campus using an interactive map and a user-friendly interface.',
+    description: 'Smart Navigator is a web based tool for exploring the CINEC Campus. Easily find buildings and navigate the campus using an interactive map and a user-friendly interface.',
     tech: ['React', 'Leaflet', 'OpenStreetMap', 'Node.js', 'Express'],
     category: 'Mapping',
     icon: '',
@@ -37,7 +37,7 @@ const projects = [
   },
   {
     title: 'Carelixa',
-    description: 'Carelixa is a healthcare appointment booking system that connects parents having autism children with doctors . It features real-time availability, secure authentication, and a user-friendly interface for seamless scheduling and supports child progress tracking and education support.',
+    description: 'Carelixa is a healthcare appointment booking system that connects parents having autism children with doctors . It features real-time availability, secure authentication, and a user friendly interface for seamless scheduling and supports child progress tracking and education support.',
     tech: ['GitHub Actions', 'Docker', 'React', 'Tailwind CSS', 'python', 'Node.js' ],
     category: 'DevOps',
     icon: '',

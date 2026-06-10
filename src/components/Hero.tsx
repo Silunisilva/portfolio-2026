@@ -166,7 +166,7 @@ export default function Hero(){
                 whileTap={{ scale: 0.95 }} 
                 className="px-6 py-3 border border-white/20 rounded-lg text-gray-200 hover:bg-white/5 transition-all backdrop-blur-sm font-semibold"
               >
-                Get in touch
+                Contact Us
               </motion.a>
             </div>
             </motion.div>

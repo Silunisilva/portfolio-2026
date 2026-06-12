@@ -116,7 +116,7 @@ export default function PhotoSection() {
                 <span className="bg-gradient-to-r from-primary via-accent to-primary bg-clip-text text-transparent"> Future</span>
               </h2>
               <p className="text-gray-400 text-base sm:text-lg">
-                Software developer &amp; full-stack engineer specializing in scalable solutions
+                Software developer &amp; Full-Stack engineer specializing in scalable solutions
               </p>
             </motion.div>
           </div>

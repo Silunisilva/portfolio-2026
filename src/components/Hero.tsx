@@ -284,7 +284,7 @@ export default function Hero(){
                   ease: 'easeInOut',
                 }}
               >
-                <span className="text-xs font-semibold text-primary">Software Developer</span>
+                <span className="text-xs font-semibold text-primary">SOFTWARE DEVELOPER</span>
               </motion.div>
 
               <motion.div

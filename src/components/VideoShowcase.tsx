@@ -547,7 +547,7 @@ export default function WorkReelShowcase() {
             fontSize:10,color:"#3a3560",letterSpacing:.5,textAlign:"center",
             pointerEvents:"none",margin:0,whiteSpace:"nowrap",
             background:`${BG}aa`,padding:"4px 12px",borderRadius:20,backdropFilter:"blur(4px)"}}>
-            🖱️ Drag to spin · Click card to select · Click preview to play
+            Drag to spin · Click card to select · Click preview to play
           </p>
         </div>
       </div>

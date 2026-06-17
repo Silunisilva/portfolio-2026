@@ -140,10 +140,10 @@ export default function Hero(){
               <span className="bg-clip-text text-transparent bg-gradient-to-r from-primary via-accent to-primary animate-gradient bg-[length:200%_auto]">Siluni</span>
               <span className="text-white"> ☁️</span>
               <br className="hidden md:block" />
-              <span className="text-gray-300 font-medium text-sm sm:text-base md:text-xl lg:text-2xl">Final-year BSc (Hons) Software Engineering • Junior Web Developer</span>
+              <span className="text-gray-300 font-medium text-sm sm:text-base md:text-xl lg:text-2xl">Final Year BSc (Hons) Software Engineering • Junior Web Developer</span>
             </h1>
             <p className="text-gray-400 text-sm sm:text-base md:text-lg lg:text-xl mb-6 leading-relaxed max-w-lg">
-              I'm a final-year BSc (Hons) Software Engineering student and a junior web developer building user centered web apps. I'm currently exploring AI, DevOps, and cloud development, and open to internships and collaborative projects.
+              I'm a Final-Year BSc (Hons) Software Engineering student and a junior web developer building user centered web apps. I'm currently exploring AI, DevOps, and cloud development, and open to internships and collaborative projects.
             </p>
 
             <div className="mt-8 flex flex-wrap gap-3">

@@ -210,7 +210,7 @@ export default function About() {
                     WebkitTextFillColor: 'transparent',
                   }}
                 >
-                  final year undergraduate
+                  Final Year Undergraduate
                 </span>{' '}
                 turning curiosity into real, shipped products.
               </p>
